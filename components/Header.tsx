@@ -11,6 +11,7 @@ function Header() {
           <Image
             className="w-44 cursor-pointer object-contain"
             src={MediumLogo}
+            alt="medium logo"
           />
           </a>
         </Link>

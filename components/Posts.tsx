@@ -16,6 +16,7 @@ function Posts({ posts }: Props) {
             <a className='border rounded-lg overflow-hidden group'>
               <img className='h-60 w-full object-contain group-hover:scale-105 transition-transform duration-200 ease-in-out'
                 src={urlFor(post.mainImage).url().toString()}
+                alt="main image"
               />
               <div className='flex justify-between p-5'>
                 <div>
@@ -25,7 +26,8 @@ function Posts({ posts }: Props) {
                   </p>
                 </div>
 
-                  <img className='h-12 w-12 rounded-full' src={urlFor(post.author.image).url().toString()} />
+                  <img className='h-12 w-12 rounded-full' src={urlFor(post.author.image).url().toString()} 
+                  alt="author photo"/>
 
               </div>
             </a>

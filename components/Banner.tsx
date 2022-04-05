@@ -17,7 +17,7 @@ function Banner() {
         </h2>
       </div>
       <div className="hidden md:inline-flex md:scale-50 lg:scale-100 m-10">
-        <Image src={mLogo} />
+        <Image src={mLogo} alt='medium logo'/>
       </div>
     </div>
   )

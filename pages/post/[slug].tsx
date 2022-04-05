@@ -58,6 +58,7 @@ function Post({ post }: Props) {
           <img
             className="h-10 w-10 rounded-full"
             src={urlFor(post.author.image).url()!}
+            alt="author photo"
           />
           <p className="text-sm font-extralight">
             posted by <span className="text-green-600">{post.author.name}</span>{' '}
